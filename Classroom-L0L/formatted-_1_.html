@@ -1,5 +1,4 @@
-<p1>
-<!DOCTYPE html>
+&lt;p&gt;<!DOCTYPE html>
  <head>
     <meta charset="UTF-8" />
     <meta content="origin" name="referrer" />
@@ -3208,4 +3207,15 @@
         border-radius: 0;
     }
 </style>
-</p1>
+&lt;/p&gt;
+</pre>
+
+<div id="output"></div>
+
+<script>
+  // Store the "plain text" HTML in a constant
+  const htmlText = document.getElementById('code').textContent;
+
+  // Inject it into the page as real HTML
+  document.getElementById('output').innerHTML = htmlText;
+</script>
